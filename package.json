@@ -1,0 +1,40 @@
+{
+  "name": "webpack-es6-scss-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run watch",
+    "build": "webpack",
+    "watch": "webpack-dev-server --config ./webpack-dev.config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/itorso/webpack-es6-scss-boilerplate.git"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@webpack-cli/serve": "^0.1.2",
+    "acorn": "^6.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^1.0.1",
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "post-compile-webpack-plugin": "^0.1.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-notifier": "^1.7.0"
+  }
+}
